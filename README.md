@@ -18,3 +18,5 @@ Question2.ipynb is used to answer the question "Do rooms that mention the word '
 
 Question3.ipynb is used to answer the question "Are guests more likely to write a review if they want to give a very good or a very poor review? A commonly held assumption is that guests will only write a review if they have a strong positive or negative reaction to a stay. To test this hypothesis I looked at the average rating and the number of reviews for each listing. I looked at the correlation coefficient and a scatterplot. I suspected there would be a strong correlation between the number of ratings and the rating score and that in the scatterplot there would be a cluster indicating lots of reviews around a low rating (under 20) and a high rating (over 80). The data did not support this hypothesis. The correlation coefficient was 0.036 (very poor) and the scatterplot really only indicated that most listings have fewer than 100 ratings. There were no obvious clusters around lots of reviews and high (or low) ratings.
 
+A link to a Blogpost with more details can be found on [Medium](https://medium.com/@dwallacebennett/want-to-earn-more-from-your-seattle-airbnb-8d5e1e95fd).
+
