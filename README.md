@@ -9,7 +9,7 @@ Three questions were presented and then answered:
 2. Do rooms that mention the word 'view' in their description charge more?
 3. Are guests more likely to write a review if they want to give a very good or very poor review?
 
-The first file- Cleaning.ipynb- is a good place to start. It reads in the raw data as zipped CSV files and does some data preparation. There are three files that are in the original set: Calendar, Listings, and Reviews. After the cleaning only two files are required, CalendarCleaned and ListingCleaned. The review dataset was not used as part of this analysis.
+The first file- Cleaning.ipynb- is a good place to start. It reads in the raw data as zipped CSV files and does some data preparation. There are three files that are in the original set: Calendar, Listings, and Reviews. After the cleaning only two files are required, CalendarCleaned and ListingCleaned. The Reviews dataset was not used as part of this analysis.
 
 Question1.ipynb is used to answer the question "Do rooms get booked more frequently on the weekends?" To do this I grouped the CalendarCleaned data by the percentage of days the room was booked according to the day of the week. For example, there were approximatly 3,800 properties in this dataset spanning one year (2016), allowing for 3800 properties * 52 weeks = about 197,600 Mondays avaialble for bookings. These options were booked approximatley 67% of the time.
 There was no discernible difference between Sunday-Thursday and Friday-Saturday, suggesting that weekends are not booked more frequently than weekdays.
